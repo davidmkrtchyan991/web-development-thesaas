@@ -72,11 +72,10 @@ body {
 
 .header {
 	outline: 1px solid green;
-	margin-top: 70px;
 }
 
 .huge-title {
-	padding: 40px;
+	margin: 110px 0 40px;
 }
 
 .thesaas-subtitle {
@@ -84,7 +83,7 @@ body {
 }
 
 .header-big-button {
-	padding-top: 100px;
+	margin-top: 100px;
 }
 
 .header-big-button-subtitle {
@@ -174,6 +173,7 @@ body {
 }
 
 .full-gallery {
+	margin-top: 70px;
 	background-color: lightyellow;
 	outline: 1px solid yellow;
 }
@@ -194,6 +194,62 @@ body {
 	width: 100%;
 }
 
+/* --- end of full faster--- */
+
+/* ---get it now--- */
+
+.get-it-now {
+	background-color: lightgreen;
+	outline: 1px solid green;
+	overflow: hidden;
+	padding-bottom: 140px;
+}
+
+.or-purchase {
+	margin-top: 10px;
+}
+
+/* ---end of get it now--- */
+
+/* ---get it now--- */
+
+.features {
+	outline: 1px solid red;
+}
+
+.tablet-pic {
+	width: 800px;
+	height: 414px;
+	margin: 0 auto;
+	outline: 1px solid black;
+}
+
+.tablet-pic img {
+	width: 100%;
+}
+
+.features-content {
+	width: 1050px;
+	margin: 60px auto;
+	outline: 1px solid green;
+	overflow: hidden;
+	background-color: lightyellow;
+}
+
+.features-content-block {
+	width: 350px;
+	height: 190px;
+	float: left;
+	outline: 1px solid blue;
+}
+
+.features-content-block h3 {
+	margin: 22px 0 32px;
+}
+
+.features-content-block i {
+	font-size: 25px;
+}
 
 
 
@@ -206,4 +262,9 @@ body {
 
 
 
-/* ---end of full faster--- */
+
+
+
+
+
+
