@@ -1,0 +1,209 @@
+/* ---RESET--- */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* ---GENERAL--- */
+
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style-type: none;
+}
+
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,800|Dosis:300,600");
+body {
+	font-family: "Open Sans",sans-serif;
+	color:#616771;
+	font-weight:300;
+	font-size: 14px;
+}
+
+.clearfix {
+	clear: both;
+}
+
+.inwrapp {
+	width: 1120px;
+	margin: 0 auto;
+	text-align: center;
+	overflow: hidden;
+}
+
+.aligning-left {
+	float: left;
+}
+
+
+.top-bar {
+	height: 100px;
+	padding-top: 40px;
+	outline: 1px solid red;
+	overflow: hidden;
+}
+
+.top-bar-logo {
+	float: left;
+}
+
+.top-bar-nav {
+	float: right;
+}
+
+.top-bar-nav ul li {
+	display: inline;
+	margin-right: 25px;
+}
+
+.top-bar-nav ul li:last-child {
+	margin-right: 0;
+}
+
+.outwrapp-header {
+	background-color: lightblue;
+}
+
+.header {
+	outline: 1px solid green;
+	margin-top: 70px;
+}
+
+.huge-title {
+	padding: 40px;
+}
+
+.thesaas-subtitle {
+	padding: 30px;
+}
+
+.header-big-button {
+	padding-top: 100px;
+}
+
+.header-big-button-subtitle {
+	padding: 40px 0;
+}
+
+.scrolldown-button {
+	padding-bottom: 20px;
+}
+
+/* ---end of header--- */
+
+/* ---sample--- */
+
+.sample {
+	overflow: hidden;
+	padding-bottom: 60px;
+	outline: 1px solid lightgreen;
+}
+
+.additional-title {
+	margin: 100px 0 36px;
+}
+
+.main-text {
+	margin:70px 0;
+}
+
+.image-description {
+	margin-top: 24px;
+}
+
+.img-block {
+	width: 350px;
+	height: 255px;
+	outline: 1px solid purple;
+}
+
+.img-block img {
+	width: 100%;
+}
+
+.gallery-image-block {
+	margin: 0 11px 50px;
+	float: left;
+	outline: 1px solid red;
+}
+
+/* ---end of sample--- */
+
+/* ---header varietis--- */
+
+.outwrapp-varietis {
+	background-color: #f8f8f8;
+}
+
+.header-varietis {
+	outline: 1px solid blue;
+}
+
+.section-nav ul li{
+	display: inline;
+}
+
+.varieties-picture {
+	width: 600px;
+	height: 400px;
+	margin: 60px auto 0;
+	outline: 1px solid red;
+}
+
+.varieties-picture img {
+	width: 100%
+}
+
+/* ---end of header-varietis--- */
+
+/* ---full faster--- */
+
+.full-faster{
+	outline: 1px solid lightblue;
+}
+
+.full-content-block {
+	display: inline-block;
+	margin:0 60px;
+}
+
+.full-gallery {
+	background-color: lightyellow;
+	outline: 1px solid yellow;
+}
+
+.full-galery-image {
+	width: 280px;
+	height: 187px;
+	display: inline-block;
+}
+
+.full-galery-image:nth-child(2) {
+	width: 350px;
+	height: 233px;
+	margin: 0 65px;
+}
+
+.full-galery-image img {
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---end of full faster--- */
