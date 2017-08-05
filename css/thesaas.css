@@ -152,7 +152,6 @@ body {
 .sample {
 	overflow: hidden;
 	padding-bottom: 60px;
-	outline: 1px solid lightgreen;
 }
 
 .additional-title {
@@ -187,7 +186,6 @@ body {
 .img-block {
 	width: 350px;
 	height: 255px;
-	outline: 1px solid purple;
 }
 
 .img-block img {
@@ -197,7 +195,6 @@ body {
 .gallery-image-block {
 	margin: 0 11px 50px;
 	float: left;
-	outline: 1px solid red;
 }
 
 /* ---end of sample--- */
@@ -208,13 +205,6 @@ body {
 	background-color: #f8f8f8;
 }
 
-.header-varietis {
-	outline: 1px solid blue;
-}
-
-.section-nav {
-
-}
 
 .section-nav ul {
 	width: 840px;
@@ -227,7 +217,6 @@ body {
 
 .section-nav ul li{
 	display: inline-block;
-    outline: 1px solid purple;
     width: 136px;
 }
 
@@ -245,7 +234,6 @@ body {
 	width: 600px;
 	height: 400px;
 	margin: 60px auto 0;
-	outline: 1px solid red;
 }
 
 .varieties-picture img {
@@ -256,9 +244,6 @@ body {
 
 /* ---full faster--- */
 
-.full-faster{
-	outline: 1px solid lightblue;
-}
 
 .full-content-block {
 	display: inline-block;
@@ -268,7 +253,7 @@ body {
 .full-gallery {
 	margin-top: 70px;
 	background-color: lightyellow;
-	outline: 1px solid yellow;
+
 }
 
 .full-galery-image {
@@ -292,7 +277,6 @@ body {
 /* ---get it now--- */
 
 .get-it-now {
-	outline: 1px solid green;
 	overflow: hidden;
 	padding-bottom: 140px;
 }
@@ -333,15 +317,11 @@ body {
 
 /* ---get it now--- */
 
-.features {
-	outline: 1px solid red;
-}
 
 .tablet-pic {
 	width: 800px;
 	height: 414px;
 	margin: 0 auto;
-	outline: 1px solid black;
 }
 
 .tablet-pic img {
@@ -351,7 +331,6 @@ body {
 .features-content {
 	width: 1050px;
 	margin: 60px auto;
-	outline: 1px solid green;
 	overflow: hidden;
 }
 
@@ -359,7 +338,6 @@ body {
 	width: 350px;
 	height: 190px;
 	float: left;
-	outline: 1px solid blue;
 }
 
 .features-content-block h3 {
@@ -370,7 +348,9 @@ body {
 	font-size: 25px;
 }
 
-
+.fa {
+	opacity: 0.3;
+}
 
 
 
