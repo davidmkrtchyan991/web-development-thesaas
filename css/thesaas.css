@@ -23,7 +23,8 @@ body {
 	font-family: "Open Sans",sans-serif;
 	color:#616771;
 	font-weight:300;
-	font-size: 14px;
+	font-size: 15px;
+	line-height: 1.9;
 }
 
 .clearfix {
@@ -37,15 +38,12 @@ body {
 	overflow: hidden;
 }
 
-.aligning-left {
-	float: left;
-}
+
 
 
 .top-bar {
-	height: 100px;
-	padding-top: 40px;
-	outline: 1px solid red;
+	height: 50px;
+	padding-top: 30px;
 	overflow: hidden;
 }
 
@@ -58,8 +56,20 @@ body {
 }
 
 .top-bar-nav ul li {
-	display: inline;
+	display: inline-block;
 	margin-right: 25px;
+}
+
+.top-bar-nav ul li a {    /* .top-bar-nav ul li a:first-child {....} is not working !!!!  ?????????????? */
+	color: #a9b3ba;
+	font-size: 12px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.top-bar-nav ul li a:hover {
+	color: #fff;
 }
 
 .top-bar-nav ul li:last-child {
@@ -67,31 +77,72 @@ body {
 }
 
 .outwrapp-header {
-	background-color: lightblue;
+	background-image: url("../images/space.png");
+	height: 100vh;
+	background-color: #345269;
 }
 
-.header {
-	outline: 1px solid green;
-}
 
 .huge-title {
 	margin: 110px 0 40px;
 }
 
+.huge-title p {
+	font-size: 50px;
+	color: #fff;
+
+}
+
+.huge-title p span {
+	color: #0facf3;
+}
+
 .thesaas-subtitle {
-	padding: 30px;
+	color: #fff;
+	font-size: 20px;
+	margin: 30px 0;
+}
+
+.thesaas-subtitle p span {
+	font-weight: bold;
+}
+
+.hr-line hr {
+	border-top-color: #688eac;
+	width: 60px;
+	margin: 0 auto;
+	opacity: 0.3;
 }
 
 .header-big-button {
-	margin-top: 100px;
+	width: 350px;
+	height: 65px;
+	background-color: #0facf3;
+	margin-top: 80px;
+	border: none;
+	border-radius: 32px;
+	outline: none;
+	cursor: pointer;
+}
+
+.header-big-button a {
+	font-size: 20px;
+	color: #fff;
 }
 
 .header-big-button-subtitle {
-	padding: 40px 0;
+	margin: 40px 0 30px;
 }
 
-.scrolldown-button {
-	padding-bottom: 20px;
+.header-big-button-subtitle a {
+	font-size: 12px;
+	color: #b5b9bf;
+}
+
+.scrolldown-button .fa-angle-down {
+	font-size: 50px;
+	color: #a9b3ba;
+	opacity: 0.3;
 }
 
 /* ---end of header--- */
@@ -105,16 +156,33 @@ body {
 }
 
 .additional-title {
+	font-size: 11px;
+	letter-spacing: 1px;
+	opacity: 0.7;
+	text-transform: uppercase;
 	margin: 100px 0 36px;
 }
 
+.main-title h2 {
+	font-size: 32px;
+	color: #37404d;
+	font-weight: normal;
+	text-transform: capitalize;
+}
+
 .main-text {
+	font-size: 17px;
 	margin:70px 0;
+	color: #a9b3ba;
 }
 
 .image-description {
 	margin-top: 24px;
 }
+.image-description p {
+	color: #a9b3ba;
+}
+
 
 .img-block {
 	width: 350px;
@@ -144,8 +212,33 @@ body {
 	outline: 1px solid blue;
 }
 
+.section-nav {
+
+}
+
+.section-nav ul {
+	width: 840px;
+    height: 34px;
+    border: 1px solid #616771;
+    border-radius: 32px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
 .section-nav ul li{
-	display: inline;
+	display: inline-block;
+    outline: 1px solid purple;
+    width: 136px;
+}
+
+.section-nav ul li:hover {
+	background-color: #616771;
+	cursor: pointer;
+}
+
+.section-nav ul li a {
+	color: #616771;
+	text-transform: uppercase;
 }
 
 .varieties-picture {
@@ -199,10 +292,37 @@ body {
 /* ---get it now--- */
 
 .get-it-now {
-	background-color: lightgreen;
 	outline: 1px solid green;
 	overflow: hidden;
 	padding-bottom: 140px;
+}
+
+.get-it-now h2, .get-it-now p, .get-it-now a {    /* what kinde of shorthand to use  ??????????????? */
+	color: #fbf5fd;
+}
+
+.get-it-now .main-text {
+	width: 790px;
+	margin: 70px auto;
+}
+
+.get-it-now-outwrapp {
+	background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+}
+
+.get-it-now-big-button {
+	width: 250px;
+	height: 50px;
+	background-color: #0facf3;
+	border: none;
+	border-radius: 2px;
+	outline: none;
+	cursor: pointer;
+}
+
+.get-it-now-big-button a {
+	font-size: 14px;
+	color: #fff;
 }
 
 .or-purchase {
@@ -233,7 +353,6 @@ body {
 	margin: 60px auto;
 	outline: 1px solid green;
 	overflow: hidden;
-	background-color: lightyellow;
 }
 
 .features-content-block {
