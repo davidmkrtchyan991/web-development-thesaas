@@ -1,0 +1,338 @@
+/*-----------------------
+	General Styles start
+-------------------------*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+body {
+	font-family: 'Open Sans', sans-serif;	
+}
+.page-wrapper {
+	margin: 0;	
+}
+header, section, footer, aside, nav, main, article, figure {
+		display: block; 
+}
+
+.page-width {
+	width: 1120px;
+	margin: 0 auto;
+}
+ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+a {
+	text-decoration: none;
+}
+.btn {	
+	 color: #fff;
+	 background-color: #0facf3;	 
+}
+.btn:hover {
+	box-shadow: 1px 1px 1px #0facf3, -1px -1px 1px #0facf3;
+}
+.line {
+	border: 1px solid #dadada;
+	width: 60px;
+	margin: 0 auto;	
+}
+.sec-pos {
+	padding-top: 60px;
+}
+.sec-subtitle {
+	font-size: 11px;
+	color: #b5b9bf;
+}
+.sec-title {
+	margin: 30px auto;
+	font-weight: 600;
+    color: #37404d;
+    font-size: 28px;
+}
+.sec-text {
+	margin: 35px auto 60px;
+	color: #616771;
+	font-size: 16px;
+	font-weight: 300;
+}
+/*---------------------
+	General Styles end
+-----------------------*/
+
+/*-------------------
+	Header start
+---------------------*/
+header {
+	height: 100vh;
+	background-image: url('../images/sky.jpg');
+    background-size: 100% 100%;         
+}
+.navigation {	
+	overflow: hidden;
+	margin-bottom: 80px;
+}
+.logo {
+	float:left;
+}
+.logo img {
+	width: 80px;
+	height: 14px;
+}
+nav {
+	float: right;
+	margin-bottom: 100px;
+}
+a.nav-item::after {
+     content: attr(data-icon);
+     transform: rotate(20deg);
+     font-family: "FontAwesome";
+     margin-left: 3px;
+}
+a.nav-item:hover::after {
+	transform: rotate(180deg);
+	display: inline-block;
+	color: #ce7777;
+}
+nav > ul > li {
+	float: left;
+	margin-left: 25px;	
+	height: 10px;
+}
+nav > ul > li:hover > a {
+	color: #fff;
+}
+nav > ul ul {
+	position: absolute;
+	background-color: #fff;
+	visibility: hidden;
+	transition: all 0.6s ease-out;
+	width: 150px;
+	top: 115px;
+}
+nav ul li:hover > ul {
+	visibility: visible;
+	top: 85px;	
+}
+nav > ul > li > a {
+	color: #bbbbbb;
+	font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+nav ul ul li {
+	padding: 5px 8px;
+}
+nav ul ul li a {
+	font-size: 13px;
+	color: #9a8787;
+}
+nav ul ul li a:hover {
+	color: #b34646;
+}
+.active {
+	color: #fff;
+}
+.advert {
+	text-align: center;
+	color: #fff;
+}
+.advert-title {
+	font-size: 36px;
+	font-weight: bold;
+}
+.advert-title span {
+	color: #0facf3;
+}
+.advert-desc {
+	font-size: 18px;
+	margin: 58px 0 80px 0;
+}
+.advert .line {
+	margin-bottom: 50px;
+}
+.advert-btn {
+	display: inline-block;
+	margin-bottom: 30px;
+	padding: 16px 58px;	
+	border-radius: 44px;	
+	font-size: 20px;
+
+}
+.advert-ext-license {
+	color: grey;
+	font-size: 11px;
+}
+.advert .scroll-down {
+	font-size: 45px;
+	color: #c5bfbf;
+}
+/*-----------------
+	Header end
+-------------------*/
+/*-----------------
+	Sample start
+-------------------*/
+.sample {
+	background-color: #fff;
+	text-align: center;	
+	height: 1400px;	
+}
+.gallery {
+	width: 1140px;
+	margin: 0 auto;
+}
+.gallery-section {
+	width: 350px;
+	height: 300px;
+	float: left;
+	margin: 26px 15px;
+}
+.gallery-image-wrap {
+	width: 350px;
+	height: 256px;
+}
+.image-caption {
+    color: #616771;
+    font-size: 14px;
+    margin-top: 26px;
+}
+.image-pos {
+	background-size: cover;
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.helpato-image {
+	background-image: url('../images/demo-helpato-sm.jpg');	
+}
+.trello-image {
+	background-image: url('../images/demo-trello-sm.jpg');	
+}
+.gmail-image {
+	background-image: url('../images/demo-gmail-sm.jpg');	
+}
+.skype-image {
+	background-image: url('../images/demo-skype-sm.jpg');	
+}
+.github-image {
+	background-image: url('../images/demo-github-sm.jpg');	
+}
+.mobile-app-image {
+	background-image: url('../images/demo-app-sm.jpg');	
+}
+.bootstrap-image {
+	background-image: url('../images/demo-bootstrap-sm.jpg');	
+}
+.slack-image {
+	background-image: url('../images/demo-slack-sm.jpg');	
+}
+.zendesk-image {
+	background-image: url('../images/demo-zendesk-sm.jpg');	
+}
+/*-----------------
+	Sample end
+-------------------*/
+
+/*-----------------
+	Variaties start
+-------------------*/
+.variaties {
+	background-color: #f8f8f8;
+	text-align: center;
+	height: 827px;	
+}
+.variaties ul {
+	width: 722px;
+	margin: 0 auto;
+	border: 1px solid #616771;
+	border-radius: 20px;
+	margin-bottom: 56px;
+	overflow: hidden;
+}
+.variaties ul li {	
+	float: left;
+	border-right: 1px solid #616771;	
+	width: 120px;
+	padding: 7px 0;
+	color: #616771;
+	text-transform: uppercase;
+	font-size: 13px;
+	cursor: pointer;
+}
+.variaties ul li:last-child {
+	border-right: none;
+}
+.variaties ul li:hover {
+	color: #fff;
+	background-color: #616771;
+}
+.variaties li.current {
+	color: #fff;
+	background-color: #616771;
+}
+/*-----------------
+	Variaties end
+-------------------*/
+
+/*-----------------
+	Funstional start
+-------------------*/
+.functional {
+	background-color: #f5f5f5;
+	text-align: center;
+	height: 734px;
+	padding-top: 100px;
+}
+.statistics {	
+	overflow: hidden;
+	width: 200px;
+	margin: 0 auto 20px;	
+}
+.statistics div {
+	float: left;	
+}
+.saas {
+	width: 782px;
+	margin: 0 auto;
+}
+.saas div {
+	float: left;
+	width: 200px;
+	margin-left: 66px;
+}
+.saas img {
+	width: 100%;	
+}
+.saas div:first-child {
+	margin-left: 0;
+}
+.header-color img {	
+	height: 200px;
+}
+.header-gradient img {	
+	height: 250px;
+}
+.header-video img {	
+	height: 210px;
+}
+
+.license {
+	background-color: #8ec5fc;
+	text-align: center;	
+	height: 624px;
+}
+
+/*------------------
+	Features start
+-------------------*/
+.features {
+	background-color: #fff;	
+	height: 1205px;
+}
