@@ -22,6 +22,7 @@ header, section, footer, aside, nav, main, article, figure {
 .page-width {
 	width: 1120px;
 	margin: 0 auto;
+	overflow: hidden;
 }
 ul {
 	margin: 0;
@@ -88,6 +89,14 @@ header {
 nav {
 	float: right;
 	margin-bottom: 100px;
+	overflow: hidden;
+}
+.menu-hamburger {
+	color: red;
+	font-size: 20px;
+	float: right;
+	display: none;
+	cursor: pointer;
 }
 a.nav-item::after {
      content: attr(data-icon);
@@ -336,3 +345,53 @@ nav ul ul li a:hover {
 	background-color: #fff;	
 	height: 1205px;
 }
+
+/*-----Media Queries-----*/
+
+@media all and (max-width: 600px) {
+	.page-width {
+		width: 100%;
+		padding: 0 5px;
+	}
+	.sec-pos {
+		padding-top: 10px;
+	}
+	.navigation {
+		width: 100%;
+		margin-bottom: -50px;
+	}	
+	nav ul {
+		display: none;
+	}
+	.menu-hamburger {
+		display: block;
+	}
+	.advert-title {
+		font-size: 24px;
+	}
+	.advert-btn {	
+	margin-bottom: 30px;
+	padding: 10px 26px;	
+	font-size: 15px;
+	}
+	.advert .scroll-down {
+	font-size: 35px;	
+	}
+	.sec-subtitle {
+		font-size: 10px;
+	}
+	.sec-title {
+		font-size: 15px
+	}
+	.sec-text {
+		font-size: 13px;
+	}
+	.gallery {
+		width: 100%;
+	}
+
+
+
+
+	}
+
