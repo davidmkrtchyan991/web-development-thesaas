@@ -463,11 +463,11 @@ nav ul ul li a:hover {
 	Business start
 ----------------------*/
 .business {
+	position: relative;
 	height: 640px;
 	background-color: #f8f8f8;
-	padding-top: 70px;
-	position: relative;
-	color: #616771	
+	padding-top: 70px;	
+	color: #616771;	
 }
 .business-content {
 	width: 715px;	
@@ -491,9 +491,104 @@ nav ul ul li a:hover {
 	right: 0;
 	top: 172px;
 }
-/*--------------------
+/*---------------
 	Business end
-----------------------*/
+-----------------*/
+
+/*---------------
+	Option start
+-----------------*/
+.option {
+	background-color: #fff;
+	height: 700px;
+	border-bottom: 1px solid #f1f2f3;
+	position: relative;
+	padding-top: 150px;
+}
+.option-image {
+	background: url("../images/header-gradient.jpg");
+	width: 600px;
+	height: 400px;
+	position: absolute;
+	left: 0;
+	top: 152px;
+}
+.option-content {
+	width: 520px;
+	float: right;
+	line-height: 28px;
+	color: #616771;
+}
+.option-text {
+	font-size: 16px;
+	margin-bottom: 45px;
+}
+.option-content ul li:before {
+	content: "\002713";
+	color: #46da60;
+	font-size: 17px;
+	margin-right: 16px;
+}
+.option-content ul li {
+	line-height: 31px;
+	font-size: 14px;
+}
+
+/*---------------
+	Option end
+-----------------*/
+
+/*---------------
+	Footer start
+-----------------*/
+footer {
+	background-color: #fff;
+	height: 90px;
+	padding-top: 35px;
+}
+.footer-innerwrapper div {
+	float: left;
+}
+.bottom-menu {
+	margin-left: 155px;
+}
+footer ul li {
+	display: inline-block;
+}
+footer ul li a {
+	margin-left: 40px;
+	font-size: 14px;
+    font-weight: 600;
+	text-transform: uppercase;
+	color: #616771;
+	transition: color 0.2s;
+}
+footer ul li a:hover {
+	color: #0facf3;
+}
+footer .social {
+	float: right;
+}
+footer .social a {
+	color: #616771;
+	margin: 0 10px;
+}
+footer a.face-icon:hover {
+	color: #3b5998;
+}
+footer a.tw-icon:hover {
+    color: #00aced;
+}
+footer a.inst-icon:hover {
+    color: #517fa4;
+}
+footer a.drib-icon:hover {
+    color: #ea4c89;
+}
+/*--------------
+	Footer end
+-----------------*/
+
 
 /*-----Media Queries-----*/
 /*
