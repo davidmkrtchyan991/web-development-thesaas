@@ -33,16 +33,21 @@ a {
 	text-decoration: none;
 }
 .btn {	
-	 color: #fff;
-	 background-color: #0facf3;	 
+	display: inline-block;
+ 	color: #fff;
+ 	background-color: #0facf3;	 
 }
 .btn:hover {
 	box-shadow: 1px 1px 1px #0facf3, -1px -1px 1px #0facf3;
 }
+.btn-round {
+	border-radius: 44px;
+}
 .line {
-	border: 1px solid #dadada;
+	border-top: 1px solid #dadada;
 	width: 60px;
-	margin: 0 auto;	
+	margin: 0 auto;
+	opacity: 0.5;	
 }
 .sec-pos {
 	padding-top: 60px;
@@ -70,10 +75,10 @@ a {
 /*-------------------
 	Header start
 ---------------------*/
-header {
+header {	
+   	background-image: url("../images/space.png");
 	height: 100vh;
-	background-image: url('../images/sky.jpg');
-    background-size: 100% 100%;         
+	background-color: #345269;        
 }
 .navigation {	
 	overflow: hidden;
@@ -89,7 +94,7 @@ header {
 nav {
 	float: right;
 	margin-bottom: 100px;
-	overflow: hidden;
+	/*overflow: hidden;*/
 }
 .menu-hamburger {
 	color: red;
@@ -166,17 +171,16 @@ nav ul ul li a:hover {
 .advert .line {
 	margin-bottom: 50px;
 }
-.advert-btn {
-	display: inline-block;
+.advert-btn {	
 	margin-bottom: 30px;
 	padding: 16px 58px;	
-	border-radius: 44px;	
 	font-size: 20px;
-
+}
+.ext-license {
+	font-size: 11px;
 }
 .advert-ext-license {
-	color: grey;
-	font-size: 11px;
+	color: grey;	
 }
 .advert .scroll-down {
 	font-size: 45px;
@@ -255,7 +259,7 @@ nav ul ul li a:hover {
 .variaties {
 	background-color: #f8f8f8;
 	text-align: center;
-	height: 827px;	
+	height: 781px;	
 }
 .variaties ul {
 	width: 722px;
@@ -268,7 +272,7 @@ nav ul ul li a:hover {
 .variaties ul li {	
 	float: left;
 	border-right: 1px solid #616771;	
-	width: 120px;
+	width: 16.667%; 
 	padding: 7px 0;
 	color: #616771;
 	text-transform: uppercase;
@@ -290,53 +294,103 @@ nav ul ul li a:hover {
 	Variaties end
 -------------------*/
 
-/*-----------------
-	Funstional start
+/*------------------
+	Functional start
 -------------------*/
 .functional {
 	background-color: #f5f5f5;
 	text-align: center;
-	height: 734px;
-	padding-top: 100px;
+	height: 649px;	
 }
 .statistics {	
 	overflow: hidden;
-	width: 200px;
+	width: 570px;
 	margin: 0 auto 20px;	
 }
 .statistics div {
-	float: left;	
+	float: left;
+	width: 100px;
+	height: 90px;
+	margin: 0 45px 60px;	
+}
+.func-result {
+	font-size: 50px;
+	color: #0e97ff;
+}
+.func-part {
+    color: #616771;
+    font-size: 15px;
 }
 .saas {
-	width: 782px;
+	width: 1090px;
+	height: 234px;
 	margin: 0 auto;
 }
 .saas div {
 	float: left;
-	width: 200px;
-	margin-left: 66px;
-}
-.saas img {
-	width: 100%;	
-}
-.saas div:first-child {
-	margin-left: 0;
-}
-.header-color img {	
-	height: 200px;
-}
-.header-gradient img {	
-	height: 250px;
-}
-.header-video img {	
-	height: 210px;
+	width: 280px;
+	height: 188px;
+	margin: 0 30px;
+	background-size: cover;
 }
 
-.license {
-	background-color: #8ec5fc;
-	text-align: center;	
-	height: 624px;
+.header-color {
+	background: url("../images/header-color.jpg") no-repeat;
+	height: 234px;
 }
+.header-gradient {
+	position: relative;
+	top: -45px;
+}
+.saas .header-gradient {
+	background: url("../images/header-gradient.jpg") no-repeat;
+	width: 350px;
+	height: 233px;
+	background-size: cover;
+}
+.header-video {
+	background: url("../images/header-video.jpg") no-repeat;
+}
+/*-----------------
+	Functional end
+------------------*/
+
+/*----------------
+	License start
+------------------*/
+.license {
+    background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+	text-align: center;	
+	height: 520px;
+	color: #fff;	
+}
+.license-subtitle {
+	color: #e6e7fe;
+}
+.license-title {
+	font-size: 45px;
+	font-weight: 600;
+}
+.mark-border {
+	margin: -13px 0 0 152px;
+}
+.license-text {
+	width: 786px;
+	margin: 0 auto;
+	font-size: 17px;
+	line-height: 25px;
+}
+.license .line {
+    margin: 15px auto 24px;
+}
+.license .btn {
+    padding: 12px 50px;
+    font-size: 14px;
+    margin: 70px auto 21px;
+}
+/*-----------------
+	License end
+------------------*/
 
 /*------------------
 	Features start
@@ -344,10 +398,105 @@ nav ul ul li a:hover {
 .features {
 	background-color: #fff;	
 	height: 1205px;
+	text-align: center;
 }
+.tools {
+	height: 400px;
+	width: 100%;
+	margin-top: 37px;
+}
+.tools div {
+	width: 327px;
+	margin: 25px 23px;	
+	float: left;
+	font-size: 14px;
+	line-height: 25px;	
+}
+.tool-icon {
+	color: #e4e7ea;
+	font-size: 25px;
+}
+.tool-title {
+	margin: 11px 0 22px;
+	font-size: 18px;
+	color: #626973;
+}
+.tool-desc {
+	font-size: 14px;
+}
+/*------------------
+	Features end
+-------------------*/
+
+/*---------------------
+	Customization start
+-----------------------*/
+.customization {
+	height: 122px;
+	background-color: #8ea6e6;
+	padding-top: 40px;
+}
+.custom-question {
+	float: left;
+	font-size: 24px;
+	color: #fff;	
+}
+.custom-btn {
+	float: right;
+}
+.customization a {
+	display: inline-block;
+	background-color: #fff;
+	padding: 9px 34px;
+	border-color: #f1f2f3;
+    color: #b5b9bf;
+    font-size: 12px;
+}
+.customization a:hover {
+	color: #616771;
+}
+/*--------------------
+	Customization end
+----------------------*/
+
+/*--------------------
+	Business start
+----------------------*/
+.business {
+	height: 640px;
+	background-color: #f8f8f8;
+	padding-top: 70px;
+	position: relative;
+	color: #616771	
+}
+.business-content {
+	width: 715px;	
+}
+.business-tools div {
+	width: 296px;
+	margin: 50px 60px 0 0;
+	float: left;
+}
+.business-tool-icon {
+	font-size: 25px;
+	color: #0facf3;
+}
+.pricing-window  {
+	background-image: url("../images/pricing-window.jpg");
+	background-size: cover;
+	width: 544px;
+	height: 365px;
+	float: right;
+	position: absolute;
+	right: 0;
+	top: 172px;
+}
+/*--------------------
+	Business end
+----------------------*/
 
 /*-----Media Queries-----*/
-
+/*
 @media all and (max-width: 600px) {
 	.page-width {
 		width: 100%;
@@ -389,6 +538,7 @@ nav ul ul li a:hover {
 	.gallery {
 		width: 100%;
 	}
+	*/
 
 
 
