@@ -3,6 +3,9 @@
  padding:0;
 }
 /*GLOBAL START*/
+.wrapper{
+ overflow:hidden;
+}
 hr{
  width: 60px;
  margin: auto;
@@ -258,13 +261,9 @@ hr{
  padding-bottom: 30px;
 }
 .header-varieties-nav-menu{
- width: 847px;
+ width: 840px;
  list-style-type: none;
- border-top: 1px solid #616771;
- border-bottom: 1px solid #616771;
- border-radius: 22px;
  margin: auto;
- padding: 0;
  overflow: hidden;
  background-color: #f8f8f8;
 }
@@ -285,9 +284,8 @@ hr{
  background-color: #616771;
 }
 .header-varieties-menu-blocks{
- display: inline-block;
- border-right: 1px 0px solid black;
- border-right: 1px solid #616771;
+ border: 1px solid #616771;
+ float:left;
 }
 .header-varieties-menu-blocks:last-child{
  border-radius: 0px 22px 22px 0px;
@@ -301,6 +299,7 @@ hr{
 .header-varieties-menu-blocks:first-child a{
  border-radius: 22px 0px 0px 22px;
 }
+
 .header-varieties-image-container{
  width: 610px;
  height: 410px;

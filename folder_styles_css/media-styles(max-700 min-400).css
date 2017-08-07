@@ -1,0 +1,113 @@
+/*MEDIA min-400px max-700px*/
+@media all and (min-width:400px) and (max-width:700px){
+.container-center{
+ width:400px;
+ max-width:100%;
+ padding:0px 32px;
+}
+.header-top-bar-container {
+ text-align:center;
+}
+.header-nav-menu-container{
+ display:none;
+}
+.landing-pages-text-container{
+ width:225px;
+}
+.landing-pages-paragraph-container{
+ width:290px;
+ padding:0px;
+}
+.landing-pages-images-container{
+ text-align:center;
+}
+.landing-images-container{
+ width:100px;
+ height:100px;
+}
+.landing-pages-images-size-container{
+ width:100px;
+ height:50px;
+}
+.landing-pages-images-size-container a{
+ width:100px;
+ height:50px;
+}
+.header-advertisement-text-container{
+ padding-top:25px;
+}
+.header-purchase-btn{
+width:295px;
+}
+.header-varieties-text-container{
+width:320px;
+}
+.header-varieties-nav-menu-container{
+ padding:70px 20px;
+}
+.header-varieties-nav-menu{
+ width:100%;
+ padding:0px 20px;
+}
+.header-varieties-nav-menu li{
+ border-radius:22px;
+ margin:5px 20px;
+ width:110px;
+}
+.header-varieties-nav-menu li:first-child{ border-radius:22px;}
+.header-varieties-nav-menu li:last-child{ border-radius:22px;}
+.header-varieties-nav-menu li:first-child a{ border-radius:22px;}
+.header-varieties-nav-menu li:last-child a{ border-radius:22px;}
+
+.header-varieties-menu-blocks a{
+ padding:7px 30px;
+ border-radius:22px;
+}
+.header-varieties-image-container{
+ width:100%;
+}
+.f-f-f-information-text-container{
+ display:block;
+}
+.full-f-f-image-color,.full-f-f-image{
+ width:100px;
+ height:140px;
+}
+.full-f-f-image-gradient{
+ width:100px;
+ display:block;
+ height:140px;
+}
+.f-f-f-images-info-text {
+ display:inline-block;
+ position:relative;
+ bottom:85px;
+}
+.full-f-f-image-container{
+ display:inline-block;
+ position:relative;
+ }
+.content-text-top-level-each-section {
+ width:250px;
+}
+.content-paragraphs-top-level-each-section{
+ width:250px;
+}
+.futures-image-container{
+ width:100%;
+ height:240px;
+}
+.responsive-options-text-container span{
+display:none;
+}
+.options-features{
+ padding-bottom:105px;
+}
+/*/////////////////////*/
+.template-customization-text-container,.template-customization-btn-container{
+ display:block;
+ padding:10px 0px;
+ text-align:center;
+ float:none;
+}
+}

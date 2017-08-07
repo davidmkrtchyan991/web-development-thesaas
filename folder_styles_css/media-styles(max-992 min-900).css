@@ -1,0 +1,64 @@
+@media all and (min-width:900px) and (max-width:992px){
+.container-center{
+ width:780px;
+ max-width:100%;
+}
+.mq-full-screen-block{
+ width:100%;
+}
+
+.header-nav-menu-container{
+ padding:30px 0px;
+}
+.header-top-bar-container {
+ text-align:center;
+}
+/*//////////////////////////////*/
+.landing-pages-images-container{
+ text-align:center;
+}
+.landing-images-container{
+ width:300px;
+ height:300px;
+}
+.landing-pages-images-size-container{
+ width:300px;
+ height:230px;
+}
+.landing-pages-images-size-container a{
+ width:300px;
+ height:230px;
+}
+/*//////////////////////////////*/
+.header-varieties-nav-menu-container{
+ padding:0px 50px;
+}
+.header-varieties-nav-menu{
+ padding:0px 15px;
+}
+.header-varieties-menu-blocks a{
+ padding:7px 30px;
+}
+/*////////////////////////////*/
+.full-f-f-image-color,.full-f-f-image{
+ width:120px;
+}
+.full-f-f-image-gradient{
+ width:180px;
+}
+.futures-image-container{
+ width:100%;
+ padding-bottom:50px;
+}
+.options-features{
+ padding-bottom:185px;
+}
+/*////////////////////////////////*/
+.template-customization-text-container,.template-customization-btn-container{
+ display:block;
+ padding:10px 0px;
+ text-align:center;
+ float:none;
+}
+
+}
