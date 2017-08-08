@@ -43,6 +43,9 @@
  width:100%;
  height:100%;
 }
+.header-varieties-container{
+ height:100%;
+}
 .header-advertisement-text-container{
  padding-top:25px;
 }
@@ -80,22 +83,21 @@ width:320px;
  display:block;
 }
 .full-f-f-image-color,.full-f-f-image{
- width:100px;
- height:140px;
+ width:100%;
+ height:71vw;
 }
 .full-f-f-image-gradient{
- width:100px;
- display:block;
- height:140px;
+ width:100%;
+ height:71vw;
+ margin:0px;
 }
 .f-f-f-images-info-text {
- display:inline-block;
- position:relative;
- bottom:85px;
+ display:none;
 }
 .full-f-f-image-container{
- display:inline-block;
- position:relative;
+display:inline-block;
+width:100%;
+ height:218vw;
  }
 .content-text-top-level-each-section {
  width:250px;
