@@ -1,9 +1,17 @@
-/*MEDIA min-400px max-700px*/
-@media all and (min-width:400px) and (max-width:700px){
+/* max-700px*/
+@media all and (max-width:700px){
 .container-center{
- width:400px;
+ width:100%;
  max-width:100%;
- padding:0px 32px;
+}
+.bg-image-container{
+ height:100vh;
+}
+.empty-container-btn{
+ height:0px;
+}
+.header-container{
+ height:100%;
 }
 .header-top-bar-container {
  text-align:center;
@@ -22,16 +30,16 @@
  text-align:center;
 }
 .landing-images-container{
- width:100px;
- height:100px;
+ width:100%;
+ margin:15px 0px;
 }
 .landing-pages-images-size-container{
- width:100px;
- height:50px;
+ height:100%;
+ width:100%;
 }
 .landing-pages-images-size-container a{
- width:100px;
- height:50px;
+ width:100%;
+ height:100%;
 }
 .header-advertisement-text-container{
  padding-top:25px;
