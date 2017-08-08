@@ -39,8 +39,6 @@ body {
 }
 
 
-
-
 .top-bar {
 	height: 50px;
 	padding-top: 30px;
@@ -50,6 +48,19 @@ body {
 .top-bar-logo {
 	float: left;
 }
+
+.top-bar-logo img {
+	width: 100%;
+	height: 100%;
+}
+
+/*
+
+.fa-bars {
+	visibility: hidden;
+}
+
+*/
 
 .top-bar-nav {
 	float: right;
@@ -80,6 +91,7 @@ body {
 	background-image: url("../images/space.png");
 	height: 100vh;
 	background-color: #345269;
+	background-repeat: no-repeat;
 }
 
 
@@ -314,7 +326,7 @@ body {
 
 /* ---end of get it now--- */
 
-/* ---get it now--- */
+/* ---features--- */
 
 
 .tablet-pic {
@@ -350,6 +362,106 @@ body {
 .fa {
 	opacity: 0.3;
 }
+
+/* ---end of features--- */
+
+@media all and (max-width: 700px) {
+	.wrapper {
+		width: 100%;
+		padding: 0 5px;
+	}
+
+	.inwrapp {
+		width: 100%;
+	}
+
+	.top-bar-logo {
+		width: 120px;
+		height: auto;
+	}
+	
+	.top-bar-nav {
+		visibility: hidden;
+	}
+
+	.top-bar-nav fa-bars {
+		font-size: 50px;
+    	color: #ffffff;
+    	opacity: 0.8;
+	}
+
+	
+
+	.outwrapp-header {
+		background-repeat: repeat;
+	}
+
+	.huge-title {
+		margin: 60px auto 40px;
+    	max-width: 790px;
+	}
+
+	.huge-title p {
+		font-size: 40px;
+	}
+
+
+	.thesaas-subtitle p {
+		 font-size: 16px;
+	}
+
+	.hr-line {
+		visibility: hidden;
+	}
+
+	.header-big-button {
+		width: 250px;
+    	height: 30px;
+	}
+	
+	.header-big-button a {
+		font-size: 12px;
+	}
+
+	.additional-title {
+		margin: 50px 0 10px;
+	}
+
+	.main-title h2 {
+		font-size: 20px;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
