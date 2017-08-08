@@ -711,9 +711,22 @@ footer a.drib-icon:hover {
 	.variaties-image {
 		width: 100%;
 		height: 65vw;
-
+	}
+	.functional {
+		height: auto;
 	}	
-
+	.statistics {
+		display: none;
+	}
+	.saas {
+		width: 100%;
+		height: auto;
+	}
+	.saas div {
+		width: 100%;
+		height: 62vw;
+		margin: 0;
+	}
 
 	/*
 	
