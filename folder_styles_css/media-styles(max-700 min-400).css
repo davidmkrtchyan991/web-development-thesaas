@@ -53,16 +53,16 @@ width:295px;
 width:320px;
 }
 .header-varieties-nav-menu-container{
- padding:70px 20px;
+ padding: 0px 20px 200px;
 }
 .header-varieties-nav-menu{
  width:100%;
- padding:0px 20px;
+ padding:0px;
 }
 .header-varieties-nav-menu li{
  border-radius:22px;
  margin:5px 20px;
- width:110px;
+ width:90%;
 }
 .header-varieties-nav-menu li:first-child{ border-radius:22px;}
 .header-varieties-nav-menu li:last-child{ border-radius:22px;}
