@@ -97,32 +97,39 @@ nav {
 	/*overflow: hidden;*/
 }
 .menu-hamburger {
-	color: red;
-	font-size: 20px;
-	float: right;
-	display: none;
+	color: #fff;
+	font-size: 18px;		
 	cursor: pointer;
+	float: left;
+	margin-right: 10px;
+	display: none;
 }
-a.nav-item::after {
-     content: attr(data-icon);
-     transform: rotate(20deg);
+.cross-mark {
+	float: right;
+	font-size: 17px;
+	color: grey;
+	margin: 20px;
+	display: none;
+}
+.nav-item a::after {
+     content: attr(data-icon);     
      font-family: "FontAwesome";
      margin-left: 3px;
 }
-a.nav-item:hover::after {
-	transform: rotate(180deg);
-	display: inline-block;
-	color: #ce7777;
-}
+
 nav > ul > li {
-	float: left;
+	display: inline-block;
 	margin-left: 25px;	
-	height: 10px;
+	/*height: 10px;*/
 }
 nav > ul > li:hover > a {
 	color: #fff;
 }
-nav > ul ul {
+nav ul ul li {
+	position: relative;
+}
+@media all and (min-width: 601px) {
+	nav > ul ul {
 	position: absolute;
 	background-color: #fff;
 	visibility: hidden;
@@ -132,8 +139,15 @@ nav > ul ul {
 }
 nav ul li:hover > ul {
 	visibility: visible;
-	top: 85px;	
+	top: 85px;		
 }
+.nav-item:hover a::after {
+	transform: rotate(180deg);
+	display: inline-block;
+	color: #ce7777;
+}
+}
+
 nav > ul > li > a {
 	color: #bbbbbb;
 	font-weight: 600;
@@ -591,12 +605,50 @@ footer a.drib-icon:hover {
 
 
 /*-----Media Queries-----*/
-/*
+
 @media all and (max-width: 600px) {
 	.page-width {
 		width: 100%;
-		padding: 0 5px;
+		padding: 0 40px;
 	}
+	header {
+		padding-top: 30px;		
+	}
+	.menu-hamburger {
+		display: block;
+	}
+	.cross-mark {
+		display: block;
+		cursor: pointer;
+	}
+	nav  {
+		position: fixed;
+		width: 100%;
+		background-color: rgba(255, 255, 255, 0.9);		
+		height: 100vh;
+		left: 0;
+		top: 0;
+		display: none;
+	}
+	nav > ul {
+		background-color: lightgrey;
+		width: 50vw;
+		height: 100vh;
+		padding-top: 20px;		
+	}
+	nav > ul > li {
+		display: block;
+	}	
+	nav > ul > li a {
+		font-size: 12px;
+	}
+	nav > ul ul {		
+		display: none;
+	}
+
+
+
+	/*
 	.sec-pos {
 		padding-top: 10px;
 	}

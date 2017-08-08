@@ -10,7 +10,7 @@
 	<title>TheSaaS - Responsive Bootstrap SaaS, Software &#38; WebApp Template</title>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">  
-	<link href="css/thesaastemp.css" rel="stylesheet" type="text/css"/>
+	<link href="css/thesaas.css" rel="stylesheet" type="text/css"/>
 	<!--[if lt IE 9]>
 		<script src="js/html5shiv.min.js"></script>
 	<![endif]-->	
@@ -20,17 +20,19 @@
 <div class="page-wrapper">
 
 	<!--Header start-->
+	
 	<header>
 		<div class="page-width sec-pos">
 			<div class="navigation">
 				<div class="logo">
+					<i class="fa fa-bars menu-hamburger" aria-hidden="true"></i>
 					<img src="images/logo-light.png" alt="Logo"/>		
 				</div>
 				<nav>
-					<i class="fa fa-bars menu-hamburger" aria-hidden="true"></i>
+					<div class="cross-mark">&#10060;</div> 
 					<ul>
 						<li><a href="index.html" class="active">Home</a></li>
-						<li><a href="#" class="nav-item" data-icon="&#xf0d7">Samples </a>
+						<li class="nav-item"><a href="#" data-icon="&#xf0d7">Samples </a>
 							<ul>
 								<li><a href="#">Helpato</a></li>
 								<li><a href="#">Trello</a></li>
@@ -43,7 +45,7 @@
 								<li><a href="#">Zendesk</a></li>
 							</ul>
 						</li>
-						<li><a href="#" class="nav-item" data-icon="&#xf0d7">Headers </a>
+						<li class="nav-item"><a href="#" data-icon="&#xf0d7">Headers </a>
 							<ul>
 								<li><a href="#">Solid Color</a></li>
 								<li><a href="#">Gradient</a></li>
@@ -328,7 +330,8 @@
 
 
 </div><!-- page-wrapper end -->
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js" type="text/javascript"></script>
+<script src="js/thesaas.js" type="text/javascript"></script>
 </body>
 
 </html>
