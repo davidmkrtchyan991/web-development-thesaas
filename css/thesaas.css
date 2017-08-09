@@ -68,6 +68,10 @@ a {
 	font-size: 16px;
 	font-weight: 300;
 }
+img {
+    max-width: 100%;
+    height: auto;
+}
 /*---------------------
 	General Styles end
 -----------------------*/
@@ -78,7 +82,8 @@ a {
 header {	
    	background-image: url("../images/space.png");
 	height: 100vh;
-	background-color: #345269;        
+	background-color: #345269;
+	padding-top: 35px;        
 }
 .navigation {	
 	overflow: hidden;
@@ -93,8 +98,7 @@ header {
 }
 nav {
 	float: right;
-	margin-bottom: 100px;
-	/*overflow: hidden;*/
+	margin-bottom: 100px;	
 }
 .menu-hamburger {
 	color: #fff;
@@ -120,7 +124,6 @@ nav {
 nav > ul > li {
 	display: inline-block;
 	margin-left: 25px;	
-	/*height: 10px;*/
 }
 nav > ul > li:hover > a {
 	color: #fff;
@@ -128,18 +131,18 @@ nav > ul > li:hover > a {
 nav ul ul li {
 	position: relative;
 }
-@media all and (min-width: 601px) {
+@media all and (min-width: 701px) {
 	nav > ul ul {
 	position: absolute;
 	background-color: #fff;
 	visibility: hidden;
 	transition: all 0.6s ease-out;
 	width: 150px;
-	top: 115px;
+	top: 100px;
 }
 nav ul li:hover > ul {
 	visibility: visible;
-	top: 85px;		
+	top: 62px;		
 }
 .nav-item:hover a::after {
 	transform: rotate(180deg);
@@ -360,18 +363,17 @@ nav ul ul li a:hover {
 	background: url("../images/header-color.jpg") no-repeat;
 	height: 234px;
 }
-.header-gradient {
-	position: relative;
-	top: -45px;
-}
 .saas .header-gradient {
 	background: url("../images/header-gradient.jpg") no-repeat;
 	width: 350px;
 	height: 233px;
 	background-size: cover;
+	position: relative;
+	top: -45px;
 }
 .header-video {
 	background: url("../images/header-video.jpg") no-repeat;
+	height: 234px;
 }
 /*-----------------
 	Functional end
@@ -466,7 +468,7 @@ nav ul ul li a:hover {
 .custom-btn {
 	float: right;
 }
-.customization a {
+.custom-btn a {
 	display: inline-block;
 	background-color: #fff;
 	padding: 9px 34px;
@@ -614,13 +616,31 @@ footer a.drib-icon:hover {
 
 /*-----Media Queries-----*/
 
-@media all and (max-width: 600px) {
+@media all and (max-width: 700px) {
+
+	/*--General start*/
 	.page-width {
 		width: 100%;
 		padding: 0 5px;
 	}
+	.sec-title {
+		font-size: 20px;
+	}
+	.sec-text {
+		font-size: 13px;
+		margin: 35px auto 25px;
+		padding: 0 16px;
+	}
+	.sec-pos {
+		padding-top: 40px;
+	}
+	/*--General end*/
+
+	/*--Header start*/
+
 	header {
-		padding-top: 30px;		
+		padding-top: 12px;
+		height: auto;		
 	}
 	.menu-hamburger {
 		display: block;
@@ -666,38 +686,35 @@ footer a.drib-icon:hover {
 	    padding: 10px 45px;
     	font-size: 13px;
 	}
-	.sec-title {
-		font-size: 20px;
-	}
-	.sec-text {
-		font-size: 15px;
+	
+	/*--Header end*/
+	
+	/*--Sample start*/
+	.sample {
+		height: auto;
+		overflow: hidden;
+		margin-bottom: 20px;
 	}
 	.gallery {
 		width: 100%;
 	}
 	.gallery-section {
 		width: 100%;
-		margin-bottom: 40px;
+		height: 70vw;
+		margin: 30px 0px;
 	}
 	.gallery-image-wrap {
 		width: 100%;
 		height: 100%;
-	}
-	
-	.sample {
-		height: auto;
-		overflow: hidden;
-		margin-bottom: 20px;
-	}
-	.sec-pos {
-		padding-top: 40px;
-	}
+	}		
 	.image-caption {
-		margin-top: 22px;
-	}
-	.gallery-section {
-		margin: 26px 0px;
-		height: 70vw;
+		margin-top: 8px;
+	}	
+	/*--Sample end*/
+
+	/*--Variaties start*/
+	.variaties {
+		height: auto;
 	}
 	.variaties ul {
 		width: 200px;
@@ -712,6 +729,9 @@ footer a.drib-icon:hover {
 		width: 100%;
 		height: 65vw;
 	}
+	/*--Variaties end*/
+
+	/*--Functional start*/
 	.functional {
 		height: auto;
 	}	
@@ -724,42 +744,79 @@ footer a.drib-icon:hover {
 	}
 	.saas div {
 		width: 100%;
-		height: 62vw;
+		height: 64vw;
 		margin: 0;
 	}
-
-	/*
-	
-	.navigation {
+	.saas .header-gradient {
+		position: static;
 		width: 100%;
-		margin-bottom: -50px;
+		height: 64vw;
 	}	
-	nav ul {
-		display: none;
+	/*--Functional end*/
+
+	/*--License start*/
+	.license {
+		height: auto;
 	}
-	.menu-hamburger {
-		display: block;
+	.license-subtitle {
+		font-size: 12px;
 	}
-	
-	.advert-btn {	
-	margin-bottom: 30px;
-	padding: 10px 26px;	
-	font-size: 15px;
+	.license-title {
+		font-size: 35px;
+		margin-top: 16px;
 	}
-	.advert .scroll-down {
-	font-size: 35px;	
-	}
-	.sec-subtitle {
-		font-size: 10px;
-	}
-	.sec-title {
-		font-size: 15px
-	}
-	.sec-text {
+	.license-text {
+		width: 100%;
+		padding: 0 28px;
 		font-size: 13px;
 	}
+	.license .btn {
+		margin-top: 33px;
+	}
+	.ext-license {
+		margin-bottom: 50px;
+	}
+	/*--License end*/
+
+	/*--Features start*/
+	.features {
+		height: auto;
+	}
+	.features-image {		
+		padding: 0 28px;
+	}
+	.tools div {
+		margin: 0 0 25px;
+		width: 100%;
+	}	
+	.tool-desc {
+		font-size: 13px;
+		padding: 0 30px;
+	}
+	/*--Features end*/
+
+	/*--Customization start*/
+	.customization {
+		height: auto;
+	}
+	.custom-question {
+		font-size: 13px;
+		text-align: center;
+		width: 100%;
+		padding: 0 38px;
+	}
+	.custom-btn {
+		width: 100%;
+		text-align: center;
+	}
+	.custom-btn a {
+		padding: 8px 28px;
+		font-size: 10px;
+	    margin: 18px 0 27px;
+	}
+	/*--Customization end*/
+
 	
-	*/
 
 
 
