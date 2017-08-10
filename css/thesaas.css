@@ -216,8 +216,7 @@ body {
 
 
 .section-nav ul {
-	width: 840px;
-    height: 34px;
+	width: 839px;
     border: 1px solid #616771;
     border-radius: 32px;
     margin: 0 auto;
@@ -225,9 +224,23 @@ body {
 }
 
 .section-nav ul li{
-	display: inline-block;
-    width: 136px;
-    height: 100%;
+	float: left;
+    width: 16.667%;
+    padding: 3px 0;
+    border-right: 1px solid #616771;
+}
+
+.section-nav ul li:last-child {
+	border-right: 0;
+}
+
+.section-nav ul li:first-child {
+	background-color: #616771;
+
+}
+
+.section-nav ul li:first-child a {
+	color: #ffffff;
 }
 
 .section-nav ul li:hover {
@@ -236,7 +249,7 @@ body {
 }
 
 .section-nav ul li:hover a {
-	color: white;
+	color: #ffffff;
 }
 
 .section-nav ul li a {
