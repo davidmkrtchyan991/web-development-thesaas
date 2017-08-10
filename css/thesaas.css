@@ -397,6 +397,12 @@ body {
 		width: 100%;
 	}
 
+	.fa-bars {
+		float: left;
+		color: #ffffff;
+		margin: 0 25px;
+	}
+
 	.top-bar-logo {
 		width: 120px;
 		height: auto;
@@ -489,7 +495,7 @@ body {
 	}
 
 	.full-content-block {
-	    margin: 0 20px;
+	    margin: 0 12px;
 	}
 	
 	.full-gallery .full-gallery-image {
