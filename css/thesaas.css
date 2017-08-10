@@ -470,6 +470,19 @@ body {
 		width: 80%;
 	}
 
+	.section-nav ul li {
+		display: none;
+		width: 50%;
+	}
+
+	.section-nav ul li:first-child {     /* shorthand property ???????????? */
+		display: initial;
+	}
+
+	.section-nav ul li:last-child {
+		display: initial;
+	}
+
 	.varieties-picture {
 		width: 100%;
 		height: initial;
