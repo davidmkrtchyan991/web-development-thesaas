@@ -1,3 +1,9 @@
-.title {
-	font-size: 18px;
+.slider {
+	width: 800px;
+	height: 500px;
+}
+.slider-pic {
+	background-image: url("may.jpg");
+	width: 800px;
+	height: 400px;
 }
