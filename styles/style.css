@@ -1,0 +1,11 @@
+footer{
+ width: 100%;
+ overflow: hidden;
+ background-color: gray;
+}
+p{
+ display: inline-block;
+}
+img{
+ float: right;
+}
