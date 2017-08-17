@@ -17,8 +17,10 @@
 .slider {
 	width: 800px;
 	height: 500px;
+	margin: 10px auto;
 }
 .slider-pic {
-	background-image: url("may.jpg");
+	background-image: url("../images/may.jpg");
 	width: 800px;
 	height: 400px;
+}
